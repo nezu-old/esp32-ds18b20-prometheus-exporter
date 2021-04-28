@@ -4,7 +4,7 @@ A simple program that exposes temperature readings from all connected ds18b20 te
 
 By default the server listens on pot 80 and exposes data at `/metrics`
 
-This project expects the sensor(s) to be connected to pin `4`. If you want to use a diffrent pin make sure to edit the `GPIO_DS18B20_0` define in [main.c](./main/main.c)
+This project expects the sensor(s) to be connected to pin `4`. If you want to use a diffrent pin make sure to edit the `GPIO_DS18B20_0` define in [main.c](./main/main.c#L16)
 
 # Compiling
 
