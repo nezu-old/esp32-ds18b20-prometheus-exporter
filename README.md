@@ -1,3 +1,6 @@
+# **!!! DEPRECATED !!!**
+**As an alternative I recommend using [ESPHome](https://esphome.io/components/prometheus.html)**
+
 # esp32 ds18b20 prometheus exporter
 
 A simple program that exposes temperature readings from all connected ds18b20 temperature sensors in [prometheus format](https://prometheus.io/docs/instrumenting/exposition_formats/#text-based-format)
